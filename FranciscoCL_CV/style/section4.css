@@ -1,0 +1,145 @@
+#sec5{
+    padding-top: 3cm;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: center;
+    padding-left: 1.5cm;
+        
+}
+
+.tamaño1{
+    display: flex;
+    margin: auto;
+    height: 450px;
+    width: 350px;
+    border-radius: 30px;
+    
+ 
+}
+
+.subrayado1 {
+    display: flex;
+    height: 20px;
+    width: 200px;
+    background-color: #af4263;
+ }
+ .seguido{
+     display: flex;
+     flex-direction: row;
+ }
+ .btn5{
+    display: flex;
+    flex-direction: row;
+    background-color: #af4263;
+    border: red;
+    color: rgb(243, 241, 151);
+    padding: 15px 32px;
+    border-radius: 7px;
+    font-weight: bold;
+ }
+ .btn5:hover{
+    background-color: rgb(103, 54, 218);
+}
+ .btn5C{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #487dcc;
+    border: red;
+    color: rgb(243, 241, 151);
+    padding: 15px 32px;
+    border-radius: 7px;
+    font-weight: bold;
+ }
+ .btn5C:hover{
+    background-color: rgb(67, 93, 241);
+}
+ /*
+#btn{
+     display: block;
+     background-color: #af4263;
+     border: red;
+     color: rgb(243, 241, 151);
+     padding: 15px 32px;
+} */
+#sec5{
+    padding-top: 3cm;
+    display: flex;
+    flex-direction: row;
+    
+    margin: auto;
+}
+.espacioiz{
+    padding-left: 1cm;
+}
+#sec6{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 200px;
+    background-color: #74c4f1;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 10px;
+    text-align: center;
+    
+    margin:auto;
+}
+.tamaño2{
+    height: 80px;
+    width: 85px;
+    margin: auto;
+}
+@media screen and ( max-width:800px) {
+    .tamaño1{
+        display: flex;
+        margin: auto;
+        height: 350px;
+        width: 250px;
+        border-radius: 30px;
+        
+     
+    }
+}
+
+ @media screen and ( max-width:600px) {
+
+#sec5{
+    padding-top: 3cm;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2.5cm;
+}
+.subrayado1 {
+    display: flex;
+    height: 30px;
+    width: 200px;
+    background-color: #af4263;
+ }
+
+.seguido{
+    display: flex;
+    flex-direction: column;
+}
+.tamaño1{
+    display: flex;
+    margin: auto;
+    height: 350px;
+    width: 250px;
+    
+    
+}
+#sec6{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 500px;
+    background-color: #74c4f1;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 10px;
+    text-align: center;
+    
+    margin:auto;
+}

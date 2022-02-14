@@ -1,0 +1,100 @@
+@import url(./about-me.css);
+@import url(./section2.css);
+@import url(./section4.css);
+@import url(./section7.css);
+
+:root{
+    --fontBase: sans-serif;
+    --dark-blue: rgb(2, 35, 83);
+    
+}
+
+
+body{
+
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#cabeza{
+    display: flex;
+    margin: 0;
+    padding-top: 2cm;
+    padding-inline-start: 1cm;
+    font-weight: bold;
+    font-size: 20px;
+    flex-direction: row;
+    
+    
+}
+.imgRedo {
+    width:50px;
+    height:50px;
+    padding-right: 2cm;
+    padding-left: 1cm;
+    
+}
+#btn1{
+    display: none;
+} 
+.espacio{
+   
+    padding: 0.5cm;
+    font-weight: bold;
+}
+.espacio2{
+   
+    padding: 0.5cm;
+    font-weight: bold;
+    color: rgb(243, 241, 151);
+}
+.espacio2:hover{
+    color: royalblue;
+}
+
+
+@media screen and ( max-width:600px) {
+body{
+    margin: 0;
+}
+#cabeza{
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding-top: 1cm;
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.imgRedo {
+    margin: auto;
+    width:50px;
+    height:50px;
+    
+    
+}
+#btn1{
+    margin: auto ;
+    display: block;
+    background-color: #af4263;
+    border: red;
+    color: rgb(243, 241, 151);
+    padding: 15px 52px;
+    margin-top: 1cm;
+    font-weight: bold;
+    border-radius: 7px;
+
+  
+}
+#btn1:hover{
+    background-color: rgb(103, 54, 218);
+}
+#ph{
+    display: none;
+}
+}
+
+
